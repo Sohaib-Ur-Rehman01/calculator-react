@@ -1,0 +1,38 @@
+.buttonsContainer {
+  /* display: flex;
+  justify-content: center;
+
+  flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.buttons {
+  /* width: 45px;
+  height: 45px;
+  margin: 3px; */
+
+  height: 50px;
+  border: none;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s;
+  background: rgba(255, 255, 255, 0.3);
+  /* color: white; */
+}
+.buttons:hover {
+  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 0.5);
+}
+.buttons:active {
+  transform: scale(0.95);
+}
+.buttons:nth-child(1) {
+  background: #ff5e57;
+}
+.buttons:nth-child(4n + 4),
+.buttons:last-child {
+  background: #5cb85c;
+}
