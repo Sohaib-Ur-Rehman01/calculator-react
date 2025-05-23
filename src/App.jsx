@@ -13,7 +13,7 @@ function App() {
   const [history, setHistory] = useState([]);
   const [showHistory, setShowHistory] = useState(false);
   // let history = [];
-  // console.log(calVal);
+  // console.log(calVal) ;
   // console.log(setCalVal);
 
   const onButtonClick = useCallback(
