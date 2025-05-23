@@ -33,3 +33,74 @@
   font-size: 20px;
   cursor: pointer;
 }
+.history {
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  background: transparent;
+  color: #cccc36;
+  border: none;
+  border-radius: 100px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.historyBtn {
+  width: 200px;
+  height: 100px;
+  border: 1px solid black;
+}
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.calculator {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.light {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.dark {
+  background-color: #333;
+  color: #f5f5f5;
+}
+
+.historyPanel {
+  position: absolute;
+  right: -220px;
+  top: 0;
+  width: 200px;
+  padding: 10px;
+  background-color: inherit;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.historyItem {
+  padding: 5px;
+  margin: 5px 0;
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+}
+
+.historyItem:hover {
+  background-color: #ddd;
+}
+
+.dark .historyItem:hover {
+  background-color: #555;
+}
+
+.clearBtn {
+  margin: 10px 0;
+  padding: 5px 10px;
+  background-color: #ff4444;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}

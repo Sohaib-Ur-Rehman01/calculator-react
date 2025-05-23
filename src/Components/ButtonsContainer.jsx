@@ -17,6 +17,7 @@ const buttonNames = [
   "0",
   ".",
   "/",
+  "⌫",
   "=",
 ];
 // console.log(buttonNames.length);
@@ -24,10 +25,11 @@ const ButtonContainer = ({ onButtonClick }) => {
   return (
     <>
       <div className={styles.buttonsContainer}>
-        {buttonNames.map((buttonName) => (
+        {buttonNames.map((buttonName, index) => (
           <button
             className={styles.buttons}
             onClick={() => onButtonClick(buttonName)}
+            key={index}
           >
             {buttonName}
           </button>

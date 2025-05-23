@@ -32,6 +32,9 @@
 .buttons:nth-child(1) {
   background: #ff5e57;
 }
+.buttons:nth-child(17) {
+  background: #ff5e57;
+}
 .buttons:nth-child(4n + 4),
 .buttons:last-child {
   background: #5cb85c;
